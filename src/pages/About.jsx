@@ -3,7 +3,7 @@ export default function About() {
     <>
       <div className="row text-center justify-content-center mx-0">
         <h2 className="text">About Me</h2>
-        <img className="profile" src="/assets/87D2FF0C-197D-4C3D-8074-998FBCE153E0.jpg" />
+        <img className="profile" src="" />
       </div>
       <div className="row">
         <div className="text text-center">
