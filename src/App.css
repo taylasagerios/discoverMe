@@ -1,56 +1,56 @@
 #root {
-  --deep-purple: #250027;
-  --light-blue: #43E3FF;
-  --dirty-blue: #4D71C0;
-  --hot-pink: #FF0083;
-  --pink: #F700FF;
-  background-color: var(--deep-purple);
+  --base: #ebebeb;
+  --highlight: #4d4d4d;
+  --transparent: #aeaeae;
+  --outline: #000000;
+  --words: #000000;
+  background-color: var(--base);
 }
 
 .nav.nav-tabs {
-  border-bottom-color: var(--hot-pink);
+  border-bottom-color: var(--outline);
 }
 .nav-tabs .nav-item .nav-link {
-  color: var(--hot-pink);
-  background-color: var(--deep-purple);
-  border-color: var(--hot-pink);
+  color: var(--outline);
+  background-color: var(--base);
+  border-color: var(--outline);
   text-decoration: none;
 }
 
 .nav-tabs .nav-item .nav-link:hover {
-  border-color: var(--dirty-blue);
-  color: var(--dirty-blue);
+  border-color: var(--transparent);
+  color: var(--transparent);
 }
 
 .nav-tabs .nav-item .nav-link.active {
-  background-color: var(--deep-purple);
-  color: var(--light-blue);
+  background-color: var(--base);
+  color: var(--highlight);
   text-decoration: none;
-  border-color: var(--light-blue);
-  border-bottom-color: var(--deep-purple);
+  border-color: var(--highlight);
+  border-bottom-color: var(--base);
 }
 
 .text {
-  color: var(--pink)
+  color: var(--words)
 }
 
 .me {
   position: absolute;
-  color: var(--hot-pink);
+  color: var(--words);
   top: 5px;
   left: 40px;
 }
 
 .list-group-item {
-  background-color: var(--deep-purple);
-  color: var(--hot-pink);
-  border-color: var(--hot-pink);
+  background-color: var(--base);
+  color: var(--outline);
+  border-color: var(--outline);
 }
 
 .list-group-item:hover {
-  color: var(--light-blue);
-  background-color: var(--deep-purple);
-  border-color: var(--light-blue);
+  color: var(--highlight);
+  background-color: var(--base);
+  border-color: var(--highlight);
 }
 
 footer {
@@ -59,26 +59,26 @@ footer {
 }
 
 .form-control {
-  background-color: var(--dirty-blue);
-  color: var(--light-blue);
-  border-color: var(--hot-pink);
+  background-color: var(--transparent);
+  color: var(--highlight);
+  border-color: var(--outline);
 }
 
 .form-control:focus {
-  background-color: var(--dirty-blue);
-  color: var(--light-blue)
+  background-color: var(--transparent);
+  color: var(--highlight)
 }
 .btn {
   margin-top: 10px;
-  background-color: var(--dirty-blue);
-  color: var(--light-blue);
-  border-color: var(--hot-pink);
+  background-color: var(--transparent);
+  color: var(--highlight);
+  border-color: var(--outline);
 }
 
 .btn:hover {
-  background-color: var(--dirty-blue);
-  color: var(--hot-pink);
-  border-color: var(--light-blue);
+  background-color: var(--transparent);
+  color: var(--outline);
+  border-color: var(--highlight);
 }
 
 .error-text {
@@ -92,7 +92,7 @@ footer {
 }
 
 .img-wrapper:hover {
-  box-shadow: 5px 5px 5px var(--hot-pink);
+  box-shadow: 5px 5px 5px var(--outline);
   transition-duration: 500ms;
 }
 
@@ -126,12 +126,12 @@ footer {
 .img-wrapper > .deployed {
   position: absolute;
   font-size: large;
-  color: var(--hot-pink);
+  color: var(--outline);
   top: 50%;
   left: 50%;
   opacity: 0%;
   transform: translate(-50%, -50%);
-  background-color: var(--dirty-blue);
+  background-color: var(--transparent);
   border-radius: 25px;
   padding: 5px;
 }
@@ -147,6 +147,6 @@ footer {
 }
 
 #about-me {
-  background-color: var(--dirty-blue);
-  color: vv;
+  background-color: var(--transparent);
+  color: var(--word);
 }
