@@ -1,0 +1,152 @@
+#root {
+  --deep-purple: #250027;
+  --light-blue: #43E3FF;
+  --dirty-blue: #4D71C0;
+  --hot-pink: #FF0083;
+  --pink: #F700FF;
+  background-color: var(--deep-purple);
+}
+
+.nav.nav-tabs {
+  border-bottom-color: var(--hot-pink);
+}
+.nav-tabs .nav-item .nav-link {
+  color: var(--hot-pink);
+  background-color: var(--deep-purple);
+  border-color: var(--hot-pink);
+  text-decoration: none;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+  border-color: var(--dirty-blue);
+  color: var(--dirty-blue);
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: var(--deep-purple);
+  color: var(--light-blue);
+  text-decoration: none;
+  border-color: var(--light-blue);
+  border-bottom-color: var(--deep-purple);
+}
+
+.text {
+  color: var(--pink)
+}
+
+.me {
+  position: absolute;
+  color: var(--hot-pink);
+  top: 5px;
+  left: 40px;
+}
+
+.list-group-item {
+  background-color: var(--deep-purple);
+  color: var(--hot-pink);
+  border-color: var(--hot-pink);
+}
+
+.list-group-item:hover {
+  color: var(--light-blue);
+  background-color: var(--deep-purple);
+  border-color: var(--light-blue);
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+.form-control {
+  background-color: var(--dirty-blue);
+  color: var(--light-blue);
+  border-color: var(--hot-pink);
+}
+
+.form-control:focus {
+  background-color: var(--dirty-blue);
+  color: var(--light-blue)
+}
+.btn {
+  margin-top: 10px;
+  background-color: var(--dirty-blue);
+  color: var(--light-blue);
+  border-color: var(--hot-pink);
+}
+
+.btn:hover {
+  background-color: var(--dirty-blue);
+  color: var(--hot-pink);
+  border-color: var(--light-blue);
+}
+
+.error-text {
+  color: red;
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.img-wrapper:hover {
+  box-shadow: 5px 5px 5px var(--hot-pink);
+  transition-duration: 500ms;
+}
+
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper:hover > img {
+  opacity: 80%;
+  transition-duration: 500ms;
+}
+
+.img-wrapper > .repo {
+  position: absolute;
+  max-width: 64px;
+  max-height: 64px;
+  opacity: 0;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.img-wrapper:hover > .repo {
+  opacity: 80;
+  transition-duration: 500ms;
+}
+
+.img-wrapper > .deployed {
+  position: absolute;
+  font-size: large;
+  color: var(--hot-pink);
+  top: 50%;
+  left: 50%;
+  opacity: 0%;
+  transform: translate(-50%, -50%);
+  background-color: var(--dirty-blue);
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.img-wrapper:hover > .deployed {
+  opacity: 80%;
+  transition-duration: 500ms;
+}
+
+.profile {
+  height: 400px;
+  width: 400px;
+}
+
+#about-me {
+  background-color: var(--dirty-blue);
+  color: vv;
+}
